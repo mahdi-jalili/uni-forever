@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Yekan", sans-serif;
+}
+.wrapper {
+    background-color: #eeeeee;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper span {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px 15px;
+    background-color: #d8d2cb;
+    border-radius: 50px;
+}
+#button {
+    cursor: pointer;
+    font-family: "Yekan", sans-serif;
+    text-align: center;
+    font-size: 1em;
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #398ab9;
+    color: #fff;
+    box-shadow: 0px 4px 5px #d8d2cb;
+    transition: background-color 0.3s ease-in-out;
+}
+#button:hover {
+    background-color: #2f6a8a;
+}
+#message {
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px 15px;
+    background-color: #34be82;
+    border-radius: 50px;
+}

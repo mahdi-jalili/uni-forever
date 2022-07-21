@@ -1,0 +1,11 @@
+{
+    "name": "Uni forever! - Cyberpunk Edition",
+    "description": "Stay logged in to Uni until 2077!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "host_permissions": ["*://*.example.ac.ir/*"],
+    "permissions": ["cookies"],
+    "action": {
+        "default_popup": "popup.html"
+    } 
+}
